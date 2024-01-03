@@ -29,4 +29,7 @@ if(nota >=8 && nota <=9){
 else if(nota === 10){
 alert('Sobresaliente')
 }
+if (nota >=11 ){
+    alert ('Opcion invalida')
+}
 
