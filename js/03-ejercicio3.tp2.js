@@ -10,5 +10,5 @@ do {
   } else {
     resultado = resultado + " " + cadena;
   }
-} while (confirm("Desea seguir?"));
+} while (confirm("Desea contiuar?"));
 document.write(resultado);
