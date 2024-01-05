@@ -8,7 +8,7 @@ let j;
 let car;
 let salida = "";
 for (j = 0; j < numchar; j++) {
-    car = cadena.charAt(j);    // recupera el caracter i del string.
-    salida = car + salida;
+  car = cadena.charAt(j);
+  salida = car + salida;
 }
 document.write(salida);
