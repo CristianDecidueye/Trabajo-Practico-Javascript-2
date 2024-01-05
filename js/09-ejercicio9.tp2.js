@@ -12,7 +12,7 @@
 9 (Múltiplo de 9)
 10
 */
-// IMPRIMOS UNA LÍNEA HORIZONTAL   
+// IMPRIMOS UNA LÍNEA HORIZONTAL
 document.write("<hr>");
 // DECLARAMOS LAS VARIABLES
 let m;
@@ -20,19 +20,18 @@ const p = 500;
 const rep = 0;
 
 for (m = 1; m <= p; m++) {
-    
-    document.write(m);
+  document.write(m);
 
-    if (m % 4 == 0) {
-        document.write(" (Multiplo de 4)");
-    }
-   
-    if (m % 9 == 0) {
-        document.write(" (Multiplo de 9)");
-    }
-    
-    document.write("<br>");
-    if (m % 5 == 0) {
-        document.write("<hr>");
-    }
+  if (m % 4 == 0) {
+    document.write(" (Multiplo de 4)");
+  }
+
+  if (m % 9 == 0) {
+    document.write(" (Multiplo de 9)");
+  }
+
+  document.write("<br>");
+  if (m % 5 == 0) {
+    document.write("<hr>");
+  }
 }
