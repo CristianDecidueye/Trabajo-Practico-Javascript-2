@@ -12,7 +12,7 @@ Deberá de repetirse el proceso hasta que el usuario pulse «cancelar».
 let resto = 0;
 let letra = "";
 do {
-  let numero = prompt("Introduce tu dni");
+  let numero = parseInt(prompt("Introduce tu dni"));
   if (Number(numero) == numero) {
     numero = Number(numero);
     if (numero >= 0 && numero <= 99999999) {
